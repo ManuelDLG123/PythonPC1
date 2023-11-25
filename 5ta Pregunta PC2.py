@@ -11,7 +11,7 @@ def contar_digitos(numero, digito):
     cantidad = numero_str.count(str(digito)) 
     return cantidad
 
-# Ejemplo de uso
+
 numero_ingresado = 15789000
 digito = 0
 

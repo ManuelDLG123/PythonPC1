@@ -9,8 +9,8 @@ def fibonacci(limite):
     fibonacci_series = [0, 1] 
 
     while True:
-        siguiente_numero = fibonacci_series[-1] + fibonacci_series[-2]  # Sumar los dos últimos números
-        if siguiente_numero > limite:  # Si el siguiente número supera el límite, terminar el bucle
+        siguiente_numero = fibonacci_series[-1] + fibonacci_series[-2]  
+        if siguiente_numero > limite: 
             break
         fibonacci_series.append(siguiente_numero)
 
